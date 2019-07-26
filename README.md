@@ -3,6 +3,9 @@
 ## Data structure that i coded myself
 
 ### gitignore : https://www.gitignore.io/
+1. Windows
+2. VisualStudio
+3. C++
 
 ## License
 
