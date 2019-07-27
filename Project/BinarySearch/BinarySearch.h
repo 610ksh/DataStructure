@@ -1,10 +1,6 @@
 #pragma once
 #include <iostream>
+#include <vector>
+#include <algorithm>
 
-class BinarySearch
-{
-public:
-	BinarySearch();
-	~BinarySearch();
-};
-
+void BinarySearch(std::vector<unsigned int> &vec);
