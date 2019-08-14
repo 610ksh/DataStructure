@@ -13,6 +13,7 @@ RecursiveFunction::~RecursiveFunction()
 
 uint32_t RecursiveFunction::Fibonacci(const uint32_t & input)
 {
+	// base case(기저조건)
 	if (input == 1)
 		return 1;
 	if (input == 2)
@@ -24,6 +25,7 @@ uint32_t RecursiveFunction::Fibonacci(const uint32_t & input)
 
 uint32_t RecursiveFunction::Factorial(const uint32_t & input)
 {
+	// base case(기저조건)
 	if (input <= 1)
 		return 1;
 
