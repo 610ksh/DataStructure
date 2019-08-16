@@ -17,7 +17,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Queue", "Queue\Queue.vcxpro
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Deque", "Deque\Deque.vcxproj", "{BACD8EAF-C7A6-4AC1-8535-15D7F36764C9}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DepthFirstSearch(DFS)", "DepthFirstSearch(DFS)\DepthFirstSearch(DFS).vcxproj", "{C803F296-FB49-4EB0-ADF2-E208E05092FA}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MazeSearch", "MazeSearch\MazeSearch.vcxproj", "{C803F296-FB49-4EB0-ADF2-E208E05092FA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

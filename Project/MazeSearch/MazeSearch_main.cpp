@@ -1,4 +1,5 @@
 #include "DFS.h"
+#include "BFS.h"
 /*
 	2019, August, 16
 
@@ -15,6 +16,10 @@ int main()
 	DFS dfs;
 	dfs.SetStartPosition(1, 0);
 	dfs.StartMazeSearch();
+
+	BFS bfs;
+	bfs.SetStartPosition(1, 0);
+	bfs.StartMazeSearch();
 
 	return 0;
 }

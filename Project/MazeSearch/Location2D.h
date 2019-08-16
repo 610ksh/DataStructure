@@ -12,6 +12,15 @@ static char maze[MAX_SIZE][MAX_SIZE] = {
 	{'1','1','1','1','1','1'},
 };
 
+static char maze2[MAX_SIZE][MAX_SIZE] = {
+	{'1','1','1','1','1','1'},
+	{'e','0','1','0','0','1'},
+	{'1','0','0','0','1','1'},
+	{'1','0','1','0','1','1'},
+	{'1','0','1','0','0','x'},
+	{'1','1','1','1','1','1'},
+};
+
 // 현재 위치를 기록하는 클래스
 class Location2D
 {
@@ -32,6 +41,16 @@ public:
 		// 내부가 맞다면 그곳이 갈 수 있는 곳인지 체크
 		else
 			return maze[r][c] == '0' || maze[r][c] == 'x';
+	}
+	// 현재 위치가 유효한지 체크
+	bool isValied2(const int& r, const int& c)
+	{
+		// MAZE 내부인지 체크
+		if (r < 0 || c < 0 || r >= MAX_SIZE || c >= MAX_SIZE)
+			return false;
+		// 내부가 맞다면 그곳이 갈 수 있는 곳인지 체크
+		else
+			return maze2[r][c] == '0' || maze2[r][c] == 'x';
 	}
 };
 

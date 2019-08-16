@@ -17,6 +17,7 @@ class DFS
 {
 private:
 	std::stack<Location2D> stackPos;
+	int count = 0;
 
 public:
 	void SetStartPosition(const int& r, const int& c);

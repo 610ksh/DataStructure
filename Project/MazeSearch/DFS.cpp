@@ -21,10 +21,12 @@ bool DFS::StartMazeSearch()
 
 		// 스택에서 뽑음
 		stackPos.pop();
+		count++;
 
 		// 현재 위치가 도착지점이라면 종료
 		if (maze[r][c] == 'x') {
 			std::cout << "Success to search for maze" << std::endl;
+			std::cout << "Search count is : " << count << std::endl;
 			return true;
 		}
 		// 그게 아니라면 상 하 좌 우 조건 확인후 모두 스택에 순서대로 넣기
