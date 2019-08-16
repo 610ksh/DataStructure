@@ -1,7 +1,7 @@
-#include "Stack.h"
+#include "ArrayStack.h"
 
 
-void Stack::Push(int item)
+void ArrayStack::Push(int item)
 {
 	// not full
 	if (!isFull()) {
@@ -15,7 +15,7 @@ void Stack::Push(int item)
 	}
 }
 
-int Stack::Pop()
+int ArrayStack::Pop()
 {
 	if (!isEmpty())
 		return stack[top--];
@@ -23,7 +23,7 @@ int Stack::Pop()
 		return NULL;
 }
 
-int Stack::Peek()
+int ArrayStack::Peek()
 {
 	if (!isEmpty())
 		return stack[top];
@@ -31,7 +31,7 @@ int Stack::Peek()
 		return NULL;
 }
 
-bool Stack::isEmpty()
+bool ArrayStack::isEmpty()
 {
 	if (top < 0)
 		return true;
@@ -39,7 +39,7 @@ bool Stack::isEmpty()
 		return false;
 }
 
-bool Stack::isFull()
+bool ArrayStack::isFull()
 {
 	if (top >= MAX_STACK_SIZE)
 		return true;
@@ -47,7 +47,7 @@ bool Stack::isFull()
 		return false;
 }
 
-void Stack::Print()
+void ArrayStack::Print()
 {
 	if (!isEmpty())
 	{

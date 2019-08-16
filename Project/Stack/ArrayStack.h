@@ -9,7 +9,7 @@
 
 const int MAX_STACK_SIZE = 10;
 
-class Stack
+class ArrayStack
 {
 private:
 	int stack[MAX_STACK_SIZE];

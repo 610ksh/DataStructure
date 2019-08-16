@@ -1,8 +1,8 @@
-#include "Stack.h"
+#include "ArrayStack.h"
 
 int main()
 {
-	Stack stack;
+	ArrayStack stack;
 	std::cout << stack.Peek() << std::endl;
 	stack.Push(10);
 	std::cout << stack.Peek() << std::endl;
