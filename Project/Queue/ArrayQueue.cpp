@@ -57,7 +57,7 @@ bool ArrayQueue::isEmpty()
 {
 	// f = r
 	if (front == rear)
-		return true;
+		return true;	
 	return false;
 }
 
