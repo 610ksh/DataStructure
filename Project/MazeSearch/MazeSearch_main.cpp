@@ -7,6 +7,8 @@
 	1. Search priority : up > down > left > right
 	2. All of position for maze consist of row and column
 
+	DFS : stack
+	BFS : queue
 */
 
 

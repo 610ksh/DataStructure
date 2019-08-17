@@ -3,6 +3,8 @@
 #include <stack>
 #include "Location2D.h"
 /*
+	stack 기반의 DFS
+
 	DFS : 가장 최근에 저장한 경로를 확인(스택)
 		- 한번 지나간 방을 다시 가지 않는다.
 		- 첫번째 시작 위치를 스택에 넣어주면 탐색이 시작된다.

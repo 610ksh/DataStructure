@@ -3,6 +3,10 @@
 #include <iostream>
 #include <queue>
 
+/*
+	queue ±â¹ÝÀÇ BFS
+*/
+
 class BFS
 {
 private:
