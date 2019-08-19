@@ -13,9 +13,8 @@ struct Node {
 class LinkedList
 {
 private:
-	// 머리위치
+	// 머리 위치
 	Node* head;
-	//Node* tail;
 	int size;
 
 public:
@@ -27,13 +26,15 @@ public:
 	// 읽기
 	int GetEntry(const int& pos);
 	// 검색
-	int Find(const int& item);
+	bool Find(const int& item);
 	// 비었는지
 	bool IsEmpty();
 	// 현재 사이즈는?
 	int GetSize();
 	// 출력
 	void Print();
+	// 해제
+	void Clear();
 
 public:
 	LinkedList();
