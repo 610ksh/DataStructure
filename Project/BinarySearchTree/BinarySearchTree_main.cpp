@@ -1,6 +1,12 @@
 #include "BinarySearchTree.h"
 
 /*
+	BST = Binary Search Tree.
+
+	삽입, 삭제, 검색 모두다 O(n). 편향될 수 있기 때문.
+	개선한 트리 = AVL (Balanced BST)
+
+
 	August 23, 2019
 */
 

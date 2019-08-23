@@ -1,4 +1,4 @@
-#include "BinarySearchTree.h"
+#include "BinarySearchTree3.h"
 
 
 void BinarySearchTree::Insert(const int & data)
