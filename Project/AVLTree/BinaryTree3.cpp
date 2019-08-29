@@ -82,7 +82,7 @@ int BinaryTree::GetHeight(BTreeNode * node)
 
 	// 자식 노드가 없을때
 	if (node->left == nullptr && node->right == nullptr) {
-		return 0;
+		return 1;
 	}
 	// 자식 노드가 하나만 있다면
 	if (node->right == nullptr) {
@@ -93,7 +93,7 @@ int BinaryTree::GetHeight(BTreeNode * node)
 	}
 
 	// 자식 노드가 둘다 있을때
-	return std::max(GetHeight(node->left) + 1, GetHeight(node->right) + 1);
+	return std::max(GetHeight(node->left)+1, GetHeight(node->right)+1);
 }
 
 // 전위 순회

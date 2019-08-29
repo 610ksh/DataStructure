@@ -5,7 +5,7 @@ class BinarySearchTree : public BinaryTree
 {
 public:
 	bool Search(const int& data);
-	void Insert(const int& data);
+	virtual void Insert(const int& data);
 	void Remove(const int& data);
 };
 
