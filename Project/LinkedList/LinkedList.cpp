@@ -7,7 +7,7 @@ LinkedList::LinkedList()
 	// 더미노드를 가리킨다.
 	head = new Node;
 	head->next = nullptr;
-	head->data = -9999999; // -1로 그냥 초기화
+	head->data = -9999999; // -9999999로 그냥 초기화
 	size = 0;
 }
 
