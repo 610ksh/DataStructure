@@ -15,6 +15,5 @@ inline int Transform(const std::string& key)
 
 inline int HashFunction(const std::string& key)
 {
-	const char* cstr = key.c_str();
 	return Transform(key) % 13;
 }

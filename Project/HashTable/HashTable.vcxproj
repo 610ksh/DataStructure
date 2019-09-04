@@ -118,11 +118,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="HashChainMap.cpp" />
     <ClCompile Include="HashTable.cpp" />
     <ClCompile Include="HashTable_main.cpp" />
     <ClCompile Include="Record.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="HashChainMap.h" />
     <ClInclude Include="HashFunctions.h" />
     <ClInclude Include="HashTable.h" />
     <ClInclude Include="Record.h" />

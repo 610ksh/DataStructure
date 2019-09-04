@@ -1,8 +1,6 @@
 #include "Record.h"
 
-
-
-Record::Record(const std::string& k="", const std::string& v="")
+Record::Record(const std::string& k, const std::string& v)
 {
 	SetRecord(k, v);
 }
@@ -31,5 +29,6 @@ bool Record::IsEqual(const std::string& k)
 
 void Record::Print()
 {
-	printf("%20s = %s\n", key, value);
+	//printf("%20s = %s\n", key, value);
+	std::cout <<" "<< key << " = " << value << std::endl;
 }

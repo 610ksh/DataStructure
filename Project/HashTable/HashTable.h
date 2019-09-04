@@ -2,10 +2,12 @@
 #include "Record.h"
 #include "HashFunctions.h"
 
+#define TABLE_SIZE 13
+
 class HashTable
 {
 private:
-	Record table[13]; // table size is 13;
+	Record table[TABLE_SIZE]; // table size is 13;
 
 public:
 	HashTable();
@@ -16,6 +18,5 @@ public:
 	// 선형 조사법을 이용한 삽입
 	void AddLinearProb(const std::string& key, const std::string& value);
 	// 탐색
-	void SearchLinearProb(const std::string& key);
+	Record* SearchLinearProb(const std::string& key);
 };
-
