@@ -16,5 +16,5 @@ public:
 	bool IsEmpty();
 	bool IsEqual(const std::string& k);
 	void Print();
+	std::string GetKey();
 };
-

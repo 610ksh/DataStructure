@@ -32,3 +32,8 @@ void Record::Print()
 	//printf("%20s = %s\n", key, value);
 	std::cout <<" "<< key << " = " << value << std::endl;
 }
+
+std::string Record::GetKey()
+{
+	return key;
+}
