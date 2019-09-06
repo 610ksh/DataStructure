@@ -33,6 +33,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Heap", "Heap\Heap.vcxproj",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HashTable", "HashTable\HashTable.vcxproj", "{DBFCBE6E-F22E-4C0D-98B6-CD14F128A3F4}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Graph", "Graph\Graph.vcxproj", "{D3FB82A7-A87C-41D0-B077-7E704385570D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -161,6 +163,14 @@ Global
 		{DBFCBE6E-F22E-4C0D-98B6-CD14F128A3F4}.Release|x64.Build.0 = Release|x64
 		{DBFCBE6E-F22E-4C0D-98B6-CD14F128A3F4}.Release|x86.ActiveCfg = Release|Win32
 		{DBFCBE6E-F22E-4C0D-98B6-CD14F128A3F4}.Release|x86.Build.0 = Release|Win32
+		{D3FB82A7-A87C-41D0-B077-7E704385570D}.Debug|x64.ActiveCfg = Debug|x64
+		{D3FB82A7-A87C-41D0-B077-7E704385570D}.Debug|x64.Build.0 = Debug|x64
+		{D3FB82A7-A87C-41D0-B077-7E704385570D}.Debug|x86.ActiveCfg = Debug|Win32
+		{D3FB82A7-A87C-41D0-B077-7E704385570D}.Debug|x86.Build.0 = Debug|Win32
+		{D3FB82A7-A87C-41D0-B077-7E704385570D}.Release|x64.ActiveCfg = Release|x64
+		{D3FB82A7-A87C-41D0-B077-7E704385570D}.Release|x64.Build.0 = Release|x64
+		{D3FB82A7-A87C-41D0-B077-7E704385570D}.Release|x86.ActiveCfg = Release|Win32
+		{D3FB82A7-A87C-41D0-B077-7E704385570D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
