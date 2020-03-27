@@ -2,6 +2,7 @@
 
 AdjMatGraph::AdjMatGraph()
 {
+
 }
 
 bool AdjMatGraph::IsEmpty()
@@ -16,18 +17,22 @@ bool AdjMatGraph::IsFull()
 
 void AdjMatGraph::InsertVertex(const char & v)
 {
+
 }
 
 void AdjMatGraph::DeleteVertex(const int & v)
 {
+
 }
 
 void AdjMatGraph::InsertEdge(const int & u, const int & v)
 {
+
 }
 
 void AdjMatGraph::DeleteEdge(const int & u, const int & v)
 {
+
 }
 
 void AdjMatGraph::Print()
