@@ -1,8 +1,34 @@
 # DataStructure
+- This project codes are data structure codes that i coded myself
+- Cpp
 
-## Data structure that i coded myself
+## ☑ TODO
+- [x] 1. Recursive (재귀)
+- [x] 2. Binary Search (이진탐색)
+- [x] 3. Polynomial (다항식)
+- [x] 4. Stack (스택)
+- [x] 5. Queue (큐)
+- [x] 6. Deque (데큐(덱))
+- [x] 7. DFS (깊이 우선 탐색)
+- [x] 8. BFS (너비 우선 탐색)
+- [x] 9. ArrayList (배열리스트)
+- [x] 10. LinkedList (연결리스트)
+- [x] 11. Binary Tree (이진트리)
+- [x] 12. Binary Search Tree (이진탐색트리)
+- [x] 13. AVL Tree (균형잡힌 이진탐색트리)
+- [x] 14. Heap(Priority Queue) (힙, 우선순위 큐)
+- [x] 15. Hash Table & Map (해쉬테이블&맵)
+- [x] 16. Graph (그래프)
+- [ ] 17. Weighted Graph
+- [ ] 18. Sortings(각종 정렬)
+- [ ] 19. Red-black tree (자가 균형 이진탐색트리)
+- [ ] 20. Dijkstra (다익스트라, 최단경로)
+- [ ] 21. A* (에이스타)
+- [ ] 22. 미정
 
-### gitignore : https://www.gitignore.io/
+
+
+## gitignore : https://www.gitignore.io/
 1. Windows
 2. VisualStudio
 3. C++
