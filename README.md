@@ -18,13 +18,16 @@
 - [x] 13. AVL Tree (균형잡힌 이진탐색트리)
 - [x] 14. Heap(Priority Queue) (힙, 우선순위 큐)
 - [x] 15. Hash Table & Map (해쉬테이블&맵)
-- [ ] 16. Graph (그래프, 진행중, 세분화 예정)
-- [ ] 17. Weighted Graph (가중치 그래프, 세분화 예정)
-- [ ] 18. Sortings(각종 정렬, 세분화 예정)
-- [ ] 19. Red-black tree (자가 균형 이진탐색트리)
-- [ ] 20. Dijkstra (다익스트라, 최단경로)
-- [ ] 21. A* (에이스타)
-- [ ] 22. 미정
+- [ ] 16. Graph (adjacency matrix & list, 진행중)
+- [ ] 17. DFS
+- [ ] 18. BFS
+- [ ] 19. Dijkstra
+- [ ] 20. Floyd-Warshall
+- [ ] 21. A*
+- [ ] 22. Weighted Graph (가중치 그래프, 세분화 예정)
+- [ ] . Sortings(각종 정렬, 세분화 예정)
+- [ ] . Red-black tree (자가 균형 이진탐색트리)
+- [ ] . 미정
 
 
 
