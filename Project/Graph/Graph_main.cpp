@@ -1,4 +1,4 @@
-#include "AdjMatGraph.h"
+#include "AdjMatrix.h"
 /*
 	Graph ±‚√ 
 	April 1, 2020
@@ -9,24 +9,24 @@
 
 int main()
 {
-	AdjMatGraph adjMatGraph;
+	AdjMatrix AdjMatrix;
 
 	for (int i = 0; i < 4; ++i)
-		adjMatGraph.InsertVertex('A' + i);
+		AdjMatrix.InsertVertex('A' + i);
 
-	adjMatGraph.InsertEdge(0, 1);
-	adjMatGraph.InsertEdge(0, 3);
-	adjMatGraph.InsertEdge(1, 2);
-	adjMatGraph.InsertEdge(1, 3);
-	adjMatGraph.InsertEdge(2, 3);
+	AdjMatrix.InsertEdge(0, 1);
+	AdjMatrix.InsertEdge(0, 3);
+	AdjMatrix.InsertEdge(1, 2);
+	AdjMatrix.InsertEdge(1, 3);
+	AdjMatrix.InsertEdge(2, 3);
 
-	adjMatGraph.Print();
+	AdjMatrix.Print();
 
-	adjMatGraph.DeleteVertex(3);
-	adjMatGraph.Print();
+	AdjMatrix.DeleteVertex(3);
+	AdjMatrix.Print();
 	
-	adjMatGraph.DeleteEdge(1, 2);
-	adjMatGraph.Print();
+	AdjMatrix.DeleteEdge(1, 2);
+	AdjMatrix.Print();
 
 
 	return 0;

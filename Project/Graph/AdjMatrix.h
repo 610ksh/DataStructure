@@ -8,7 +8,7 @@
 	Adjacency List (인접 리스트) 방식의 구현방법도 있음.
 */
 
-class AdjMatGraph
+class AdjMatrix
 { 
 private:
 	int size; // 정점의 개수 = 그래프 사이즈
@@ -18,7 +18,7 @@ private:
 	char vertices[MAX_VERTEX]; // 정점의 이름
 
 public:
-	AdjMatGraph();
+	AdjMatrix();
 	bool IsEmpty(); // 그래프가 비었는지
 	bool IsFull(); // 정해진 범위를 초과해서 정점을 추가하는지 검사
 

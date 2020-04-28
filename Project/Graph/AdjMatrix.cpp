@@ -1,6 +1,6 @@
-#include "AdjMatGraph.h"
+#include "AdjMatrix.h"
 
-AdjMatGraph::AdjMatGraph()
+AdjMatrix::AdjMatrix()
 {
 	size = 0;
 	// 배열 초기화
@@ -12,17 +12,17 @@ AdjMatGraph::AdjMatGraph()
 		vertices[i] = 'X';
 }
 
-bool AdjMatGraph::IsEmpty()
+bool AdjMatrix::IsEmpty()
 {
 	return size == 0;
 }
 
-bool AdjMatGraph::IsFull()
+bool AdjMatrix::IsFull()
 {
 	return size >= MAX_VERTEX;
 }
 
-void AdjMatGraph::InsertVertex(const char & v)
+void AdjMatrix::InsertVertex(const char & v)
 {
 	// 최대치에 도달했는지 조사
 	if (IsFull())
@@ -34,7 +34,7 @@ void AdjMatGraph::InsertVertex(const char & v)
 	size++;
 }
 
-void AdjMatGraph::DeleteVertex(const int & v)
+void AdjMatrix::DeleteVertex(const int & v)
 {
 	printf("\n%d번째 정점 제거\n", v);
 
@@ -55,7 +55,7 @@ void AdjMatGraph::DeleteVertex(const int & v)
 	size--;
 }
 
-void AdjMatGraph::InsertEdge(const int & u, const int & v)
+void AdjMatrix::InsertEdge(const int & u, const int & v)
 {
 	// 예외처리
 	if (u > MAX_VERTEX || v > MAX_VERTEX)
@@ -68,14 +68,14 @@ void AdjMatGraph::InsertEdge(const int & u, const int & v)
 	adj[v][u] = 1;
 }
 
-void AdjMatGraph::DeleteEdge(const int & u, const int & v)
+void AdjMatrix::DeleteEdge(const int & u, const int & v)
 {
 	printf("\nadj[%d][%d] 간선 제거\n",u,v);
 	adj[u][v] = 0;
 	adj[v][u] = 0;
 }
 
-void AdjMatGraph::Print()
+void AdjMatrix::Print()
 {
 	// 1. 정점의 개수 출력
 	printf("정점의 개수 : %d\n", size);

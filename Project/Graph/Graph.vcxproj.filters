@@ -18,12 +18,18 @@
     <ClCompile Include="Graph_main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="AdjMatGraph.cpp">
+    <ClCompile Include="AdjList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AdjMatrix.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="AdjMatGraph.h">
+    <ClInclude Include="AdjList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AdjMatrix.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

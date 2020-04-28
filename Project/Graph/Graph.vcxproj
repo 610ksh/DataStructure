@@ -121,11 +121,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="AdjMatGraph.cpp" />
+    <ClCompile Include="AdjList.cpp" />
+    <ClCompile Include="AdjMatrix.cpp" />
     <ClCompile Include="Graph_main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="AdjMatGraph.h" />
+    <ClInclude Include="AdjList.h" />
+    <ClInclude Include="AdjMatrix.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
