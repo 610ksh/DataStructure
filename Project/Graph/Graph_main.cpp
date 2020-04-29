@@ -1,4 +1,5 @@
 #include "AdjMatrix.h"
+#include "AdjList.h"
 /*
 	Graph ±‚√ 
 	April 1, 2020
@@ -9,25 +10,38 @@
 
 int main()
 {
-	AdjMatrix AdjMatrix;
+	/*
+
+	AdjMatrix adjMatrix;
 
 	for (int i = 0; i < 4; ++i)
-		AdjMatrix.InsertVertex('A' + i);
+		adjMatrix.InsertVertex('A' + i);
 
-	AdjMatrix.InsertEdge(0, 1);
-	AdjMatrix.InsertEdge(0, 3);
-	AdjMatrix.InsertEdge(1, 2);
-	AdjMatrix.InsertEdge(1, 3);
-	AdjMatrix.InsertEdge(2, 3);
+	adjMatrix.InsertEdge(0, 1);
+	adjMatrix.InsertEdge(0, 3);
+	adjMatrix.InsertEdge(1, 2);
+	adjMatrix.InsertEdge(1, 3);
+	adjMatrix.InsertEdge(2, 3);
 
-	AdjMatrix.Print();
+	adjMatrix.Print();
 
-	AdjMatrix.DeleteVertex(3);
-	AdjMatrix.Print();
+	adjMatrix.DeleteVertex(3);
+	adjMatrix.Print();
 	
-	AdjMatrix.DeleteEdge(1, 2);
-	AdjMatrix.Print();
+	adjMatrix.DeleteEdge(1, 2);
+	adjMatrix.Print();
 
+	*/
+
+	AdjList adjList;
+	for (int i = 0; i < 4; ++i)
+		adjList.InsertVertex('A' + i);
+
+	adjList.InsertEdge(0, 1);
+	adjList.InsertEdge(0, 3);
+	adjList.InsertEdge(1, 2);
+	adjList.InsertEdge(1, 3);
+	adjList.InsertEdge(2, 3);
 
 	return 0;
 }
