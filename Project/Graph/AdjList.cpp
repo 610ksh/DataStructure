@@ -126,9 +126,26 @@ void AdjList::Print()
 
 void AdjList::DFS(int start)
 {
-	// 시작지점 
-	
-	// 연결된 간선중 첫번째걸로 이동
+	// 예외처리
+	if (visited.size() < start + 1)
+		return;
 
-	// 
+	// 시작지점 체크
+	visited[start] = 1;
+	
+	// 이미 방문한곳 x
+	// 다음 갈곳이 있어야함
+	
+
+
+	int next = vNode[start][0];
+	// 연결된 간선이 있다면 계속 이동.
+	while (visited[next]!=-1)
+	{
+		// 이미 방문한 곳이라면 스킵
+			
+		//
+
+		DFS(vNode[start][0]);
+	}
 }

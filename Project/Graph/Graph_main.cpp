@@ -43,7 +43,6 @@ int main()
 	adjList.Print();
 	
 	adjList.DeleteVertex(3);
-	//adjList.DeleteEdge(3, 1);
 	adjList.Print();
 	
 	adjList.DeleteEdge(0, 1);
