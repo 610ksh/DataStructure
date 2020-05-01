@@ -11,7 +11,6 @@
 int main()
 {
 	/*
-
 	AdjMatrix adjMatrix;
 
 	for (int i = 0; i < 4; ++i)
@@ -30,7 +29,6 @@ int main()
 	
 	adjMatrix.DeleteEdge(1, 2);
 	adjMatrix.Print();
-
 	*/
 
 	AdjList adjList;
@@ -42,6 +40,19 @@ int main()
 	adjList.InsertEdge(1, 2);
 	adjList.InsertEdge(1, 3);
 	adjList.InsertEdge(2, 3);
+	adjList.Print();
+	
+	adjList.DeleteVertex(3);
+	//adjList.DeleteEdge(3, 1);
+	adjList.Print();
+	
+	adjList.DeleteEdge(0, 1);
+	adjList.Print();
+
+	adjList.DeleteVertex(27);
+	adjList.DeleteVertex(8);
+
+	adjList.Print();
 
 	return 0;
 }
