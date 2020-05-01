@@ -18,11 +18,10 @@
 class AdjList
 {
 	int size; // 정점의 개수(삭제 포함)
-	char vertices[MAX_VERTEX2];
+	char vertices[MAX_VERTEX2]; // 정점의 이름을 부여해봄(없어도 큰 문제는 없음)
 	std::vector<std::vector<int>> vNode; // 리스트 배열 (헤더 포인터라고 부름)
 
-	// Node* adj[MAX_VERTEX2];
-	//std::vector<Node*> node;
+	std::vector<int> visited; // 방문, -1은 미방문 1은 방문으로 처리
 
 public:
 	AdjList();
@@ -34,4 +33,6 @@ public:
 	void InsertEdge(int u, int v);
 	void DeleteEdge(int u, int v);
 	void Print();
+
+	void DFS(int start);
 };

@@ -39,8 +39,9 @@ void AdjList::InsertVertex(char vertexName)
 	vNode[size].reserve(MAX_VERTEX2); // 리스트 만들어주고, reserve
 
 	vertices[size] = vertexName; // 이름 넣어주기
-
+	visited.push_back(-1); // 미방문은 -1
 	size++;
+	
 }
 
 void AdjList::DeleteVertex(int v)
@@ -121,4 +122,13 @@ void AdjList::Print()
 		printf("\n");
 	}
 	printf("\n");
+}
+
+void AdjList::DFS(int start)
+{
+	// 시작지점 
+	
+	// 연결된 간선중 첫번째걸로 이동
+
+	// 
 }
