@@ -3,9 +3,11 @@
 AdjList::AdjList()
 {
 	size = 0;
+	vNode.reserve(MAX_VERTEX);
 	
+	// vertex 이름 지정
 	for (int i = 0; i < MAX_VERTEX; ++i)
-		vertices[i] = 'X';
+		vertices[i] = '*'; // 없는건 * 표기
 }
 
 AdjList::~AdjList()
@@ -34,28 +36,44 @@ void AdjList::InsertVertex(char vertexName)
 
 	// 리스트를 동적할당하여 포인터를 넘겨줌
 	vNode.push_back(std::vector<int>());
-
-	vertices[size] = vertexName;
+	vNode[size].reserve(MAX_VERTEX); // 리스트 만들어주고, reserve
+	
+	vertices[size] = vertexName; // 이름 넣어주기
 	
 	size++;
 }
 
 void AdjList::DeleteVertex(int v)
 {
+	// 큰 인덱스가 node의 전체 크기를 넘어서면 예외처리
+	if (vNode.size() < v + 1)
+		return; // 없다.
 
+	// 연결된 모든 선을 없앤다.
+	for (int i = 0; i < vNode[v].size(); ++i)
+	{
+		// 연결된 edge의 index 정보를 가져온다.
+		int edgeIndex = vNode[v][i];
+		for (int j = 0; j < vNode[edgeIndex].size(); ++j)
+		{
+			// v 정점과 연결된 edge들을 -1로 바꿈
+			if (vNode[edgeIndex][j] == v)
+				vNode[edgeIndex][j] = -1;
+		}
+	}
+	
 }
 
 // 양방향이라고 전제
 void AdjList::InsertEdge(int u, int v)
 {
 	/// 예외처리
-	// 정점의 인덱스중 큰 숫자를 분별
-	int max = u > v ? u : v;
-	// 큰 인덱스가 node의 전체 크기를 넘어서면 예외처리
-	if (vNode.size() < max + 1)
-		return; // 없다.
+	// 해당 정점이 없을때
+	if (vertices[u] == '*' || vertices[v] == '*')
+		return; // 
 
-	// 이미 있다면 예외처리 (중복)
+	/// 간선 중복 검사
+	// 이미 간선을 가지고 있다면 예외처리(O(e))
 	std::vector<int>::iterator it;
 	it = std::find(vNode[u].begin(), vNode[u].end(), v);
 	if (it == vNode[u].end())
@@ -64,7 +82,7 @@ void AdjList::InsertEdge(int u, int v)
 	// u 번째 인덱스 정점과 v번째 인덱스 정점을 연결하라
 	vNode[u].push_back(v);
 	vNode[v].push_back(u);
-
+	
 }
 
 void AdjList::DeleteEdge(int u, int v)
