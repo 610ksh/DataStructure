@@ -39,9 +39,9 @@ void AdjList::InsertVertex(char vertexName)
 	vNode[size].reserve(MAX_VERTEX2); // 리스트 만들어주고, reserve
 
 	vertices[size] = vertexName; // 이름 넣어주기
-	visited.push_back(-1); // 미방문은 -1
+	visited.push_back(false); // 미방문은 -1
 	size++;
-	
+
 }
 
 void AdjList::DeleteVertex(int v)
@@ -49,7 +49,7 @@ void AdjList::DeleteVertex(int v)
 	// 정점이 있는지(유효한지)
 	if (v >= MAX_VERTEX2 || vertices[v] == '*')
 		return;
-	
+
 	// 해당 정점 노드를 돌면서 모든 간선을 제거
 	while (vNode[v].size() != 0)
 	{
@@ -124,28 +124,58 @@ void AdjList::Print()
 	printf("\n");
 }
 
-void AdjList::DFS(int start)
+void AdjList::DFS(int now)
 {
 	// 예외처리
-	if (visited.size() < start + 1)
+	if (visited.size() < now + 1)
 		return;
 
 	// 시작지점 체크
-	visited[start] = 1;
-	
-	// 이미 방문한곳 x
-	// 다음 갈곳이 있어야함
-	
+	visited[now] = true;
 
-
-	int next = vNode[start][0];
-	// 연결된 간선이 있다면 계속 이동.
-	while (visited[next]!=-1)
+	for (int i = 0; i < vNode[now].size(); ++i)
 	{
-		// 이미 방문한 곳이라면 스킵
-			
-		//
+		int next = vNode[now][i];
 
-		DFS(vNode[start][0]);
+		// 이미 방문한 지역이라면
+		if (visited[next])
+			continue;
+		// 재귀호출
+		printf("now : %d, next : %d\n", now, next);
+		DFS(next);
 	}
+	
+	#pragma region 범위기반 for문(DFS, C++11)
+	/*
+	for (int next : vNode[now])
+	{
+		// 이미 방문한 지역이라면
+		if (visited[next])
+			continue;
+		// 재귀호출
+		printf("now : %d, next : %d\n", now, next);
+		DFS(next);
+	}
+	*/
+	#pragma endregion
+}
+
+void AdjList::BFS(int now)
+{
+	/*
+
+		Pseudocode(슈도코드)
+		
+		now 방문 표시
+		큐에 now 등록
+		while(큐가 빌때까지)
+			큐에서 꺼냄
+			for(모든 리스트를 돌면서)
+				if(방문하지 않은 정점이 있다면)
+				방문하지 않은 모든 정점들을 큐에 등록
+			다음 방문지(next)를 방문표시하고,
+			now를 next로 업데이트.
+
+	*/
+
 }
