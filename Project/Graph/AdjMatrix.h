@@ -1,5 +1,7 @@
 #pragma once
 #include <iostream>
+#include <queue> // for bfs
+#include <vector> // for bfs
 
 #define MAX_VERTEX 256
 
@@ -17,6 +19,12 @@ private:
 	/// 필수적인 변수는 아니다. 필요에 따라 추가할 수 있는 변수.
 	char vertices[MAX_VERTEX]; // 정점의 이름
 
+	bool visited[MAX_VERTEX]; // for dfs
+
+	bool found[MAX_VERTEX]; // for bfs
+	std::queue<int> queue;
+	std::vector<int> parent;
+	
 public:
 	AdjMatrix();
 	bool IsEmpty(); // 그래프가 비었는지
@@ -30,4 +38,7 @@ public:
 	
 	//int* Adjacent(int v); // v번째 열을 반납한다.
 	void Print();
+
+	void DFS(int now);
+	void BFS(int start);
 };
