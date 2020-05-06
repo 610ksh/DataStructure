@@ -40,6 +40,8 @@ void AdjList::InsertVertex(char vertexName)
 
 	vertices[size] = vertexName; // 이름 넣어주기
 	visited.push_back(false); // 미방문은 -1
+
+	found.push_back(false); // 미방문은 -1
 	size++;
 
 }
@@ -160,7 +162,7 @@ void AdjList::DFS(int now)
 	#pragma endregion
 }
 
-void AdjList::BFS(int now)
+void AdjList::BFS(int start)
 {
 	/*
 
@@ -178,6 +180,37 @@ void AdjList::BFS(int now)
 
 	*/
 
-	
-	
+	// 이전 경로 변수 초기화
+	parent.reserve(size);
+	parent.assign(size, -1);
+
+	// 시작지점 발견 표시
+	found[start] = true;
+	queue.push(start);
+
+	parent[start] = start;
+
+	while (queue.size() > 0)
+	{
+		// 큐에서 꺼냄.
+		int now = queue.front();
+		queue.pop();
+
+		// 정점을 돌면서 큐에 넣기
+		for (int i = 0, next; i < vNode[now].size(); ++i)
+		{
+			// 연결된 정점
+			next = vNode[now][i];
+
+			// 방문하지 않은 정점이라면 skip
+			if (found[next])
+				continue;
+
+			// 새로 발견한 정점은 큐에 넣기
+			queue.push(next);
+			// 발견 표시
+			found[next] = true;
+			parent[next] = now;
+		}
+	}
 }

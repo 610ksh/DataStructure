@@ -79,6 +79,11 @@ void AdjMatrix::Print()
 {
 	// 1. 정점의 개수 출력
 	printf("정점의 개수 : %d\n", size);
+	printf("    ");
+	for (int i = 0; i < size; ++i)
+		printf("%3c", vertices[i]);
+	printf("\n");
+
 	// 2. 그래프 전부 출력
 	for (int i = 0; i < size; ++i)
 	{

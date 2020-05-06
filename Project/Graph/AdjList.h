@@ -28,7 +28,8 @@ class AdjList
 
 	std::vector<bool> visited; // for DFS
 
-	std::vector<bool> visited2; // for BFS
+	std::vector<bool> found; // for BFS
+	std::vector<int> parent;
 	std::queue<int> queue;
 
 public:
