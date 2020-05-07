@@ -7,17 +7,17 @@
 - [x] 2. Binary Search (이진탐색)
 - [x] 3. Polynomial (다항식)
 - [x] 4. Stack (스택)
-
+ #
 - [x] 5-1. Queue (큐)
 - [x] 5-2. Deque (데큐(덱))
-
+#
 - [x] 6. Maze (미로)
 - [x] 6-1. DFS (깊이 우선 탐색)
 - [x] 6-2. BFS (너비 우선 탐색)
-
+#
 - [x] 7. ArrayList (배열리스트)
 - [x] 8. LinkedList (연결리스트)
-
+#
 - [ ] 9. Tree (트리)
 - [x] 9-1. Binary Tree (이진트리)
 - [x] 9-2. Binary Search Tree (이진탐색트리)
@@ -27,20 +27,20 @@
 - [ ] 9-5. MST
 - [ ] 9-6. B
 - [ ] 9-7. B*
-
+#
 - [x] 10. Hash Table & Map (해쉬테이블&맵)
-
+#
 - [ ] 11. Graph
 - [x] 11-1. Unweighted Graph (adjacency matrix & list)
 - [ ] 11-2. Weighted Graph (adjacency matrix & lish)
-
+#
 - [ ] 12. 최단거리
 - [x] 12-1. DFS
 - [x] 12-2. BFS
 - [ ] 12-3. Dijkstra
 - [ ] 12-4. Floyd-Warshall
 - [ ] 12-5. A*
-
+#
 - [ ] . Sortings(각종 정렬, 세분화 예정)
 - [ ] . 미정
 
