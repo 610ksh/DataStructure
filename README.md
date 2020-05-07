@@ -36,17 +36,27 @@
   - [ ] 11-2. Weighted Graph (adjacency matrix & lish)
 #
 - [ ] 12. Shortest Path
+  - [ ] 12-0. Right hand
   - [x] 12-1. DFS
   - [x] 12-2. BFS
   - [ ] 12-3. Dijkstra
   - [ ] 12-4. Floyd-Warshall
   - [ ] 12-5. A*
 #
-- [ ] 13. MST(Minimum Spanning Tree)
-  - [ ] 13-1. ﻿Kruskal(크루스칼)
-  - [ ] 13-2. ﻿Prim(프림)
+- [ ] 13. Minimum Spanning Tree(MST)
+  - [ ] 13-1. Kruskal(크루스칼)
+  - [ ] 13-2. Prim(프림)
 #
-- [ ] . Sortings(각종 정렬, 세분화 예정)
+- [ ] 14. Sortings
+  - [ ] 14-1. Selection
+  - [ ] 14-2. Insertion
+  - [ ] 14-3. Bubble
+  - [ ] 14-4. Shell
+  - [ ] 14-5. Merge
+  - [ ] 14-6. Quick
+  - [ ] 14-7. Heap
+  - [ ] 14-8. Radix
+#
 - [ ] . 미정
 
 
