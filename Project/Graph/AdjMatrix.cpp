@@ -155,7 +155,7 @@ void AdjMatrix::BFS(int start)
 				if(발견하지 않은점)
 					큐에 넣고 발견표시
 	*/
-	
+
 	// 범위 초과 exception
 	if (start >= size)
 		return;

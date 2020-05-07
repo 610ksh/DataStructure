@@ -1,7 +1,8 @@
 #include "AdjMatrix.h"
 #include "AdjList.h"
+
 /*
-	Graph 기초
+	UnWeighted Graph 기초
 	April 1, 2020 ~
 	May 6, 2020 (1차 완)
 

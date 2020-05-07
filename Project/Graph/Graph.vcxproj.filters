@@ -15,13 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Graph_main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="AdjList.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="AdjMatrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UnWeightedGraph_main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
