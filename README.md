@@ -33,7 +33,7 @@
 #
 - [ ] 11. Graph
   - [x] 11-1. Unweighted Graph (adjacency matrix & list)
-  - [ ] 11-2. Weighted Graph (adjacency matrix & lish)
+  - [ ] 11-2. Weighted Graph (adjacency matrix & list)
 #
 - [ ] 12. Shortest Path
   - [ ] 12-0. Right hand
