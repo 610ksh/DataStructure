@@ -7,10 +7,10 @@
 - [x] 2. Binary Search (이진탐색)
 - [x] 3. Polynomial (다항식)
 - [x] 4. Stack (스택)
- #
+  
 - [x] 5-1. Queue (큐)
 - [x] 5-2. Deque (데큐(덱))
-#
+  
 - [x] 6. Maze (미로)
 - [x] 6-1. DFS (깊이 우선 탐색)
 - [x] 6-2. BFS (너비 우선 탐색)
