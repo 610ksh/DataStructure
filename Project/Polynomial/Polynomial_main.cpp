@@ -11,6 +11,7 @@
 
 	대략 4시간 정도 걸린듯. 벡터와 참조에 대해서 배움.
 	2019. August, 14
+	Copyright 2019. SungHoon Kim. All rights reserved.
 */
 
 int main()

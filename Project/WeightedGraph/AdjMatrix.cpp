@@ -22,8 +22,10 @@ void AdjMatrix::Dijkstra(int start)
 {
 	/*
 		<pseudocode>
-		
-		
+		방문하지 않은 정점중 가장 가중치가 적은 정점을 찾는다
+		그 정점을 방문 표시하고,
+		그 정점과 연결된 모든 정점들의 최소 거리값을 계산후 비교하여
+		distance 값을 갱신한다.
 	*/
 
 	// 출발점 할당

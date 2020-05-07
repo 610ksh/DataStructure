@@ -6,6 +6,8 @@
 
 	¡Ø Notice
 	(rear + 1) % MAX_SIZE)
+
+	Copyright 2019. SungHoon Kim. All rights reserved.
 */
 
 int main()

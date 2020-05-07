@@ -16,6 +16,8 @@
 
 	※ ADT를 생각할때는 해당 자료구조의 특징을 통해
 	제공해야하는 필수 기능을 생각해야한다.
+
+	Copyright 2020. SungHoon Kim. All rights reserved.
 	
 
 */

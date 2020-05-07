@@ -7,6 +7,7 @@
 	없는 로직은 주석처리하고 더미 노드 있는것을 활성화
 	
 									August 19 2019.
+	Copyright 2019. SungHoon Kim. All rights reserved.
 */
 
 int main()

@@ -8,6 +8,8 @@
 
 	문제점 : 중간 vertex를 삭제할 수 없다. 데이터 관리가 안됨.
 	이유 : 중간 정점을 삭제하면 나머지 정점과 간선 정보를 이동시켜야함.
+
+	Copyright 2020. SungHoon Kim. All rights reserved.
 */
 
 int main()

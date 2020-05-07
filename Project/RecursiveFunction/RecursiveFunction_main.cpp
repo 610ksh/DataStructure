@@ -1,5 +1,9 @@
 #include "RecursiveFunction.h"
 
+/*
+
+	Copyright 2019. SungHoon Kim.All rights reserved.
+*/
 
 int main()
 {

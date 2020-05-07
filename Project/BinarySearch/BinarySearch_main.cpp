@@ -6,6 +6,8 @@
 	1. 반드시 정렬이 되어 있어야 함.
 	=> Quick sort O(N*logN), worst case : N^2
 	2. 
+
+	Copyright 2019. SungHoon Kim. All rights reserved.
 */
 #include "BinarySearch.h"
 

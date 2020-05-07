@@ -18,6 +18,8 @@
 	참고로 이렇게 추가적으로 재할당하는 구조가 아니라,
 	매번 새로운 데이터를 추가할때마다 추가 동적할당을 하는 형태가 연결리스트 형태이다.
 	2019, August, 17.
+
+	Copyright 2019. SungHoon Kim. All rights reserved.
 */
 
 int main()

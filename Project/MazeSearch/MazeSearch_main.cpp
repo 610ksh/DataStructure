@@ -9,6 +9,8 @@
 
 	DFS : stack
 	BFS : queue
+
+	Copyright 2019. SungHoon Kim. All rights reserved.
 */
 
 

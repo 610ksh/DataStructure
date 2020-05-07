@@ -1,4 +1,8 @@
 #include "ArrayStack.h"
+/*
+
+	Copyright 2019. SungHoon Kim.All rights reserved.
+*/
 
 int main()
 {

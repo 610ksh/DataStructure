@@ -4,6 +4,7 @@
 	기본 이진트리
 
 	August 22, 2019
+	Copyright 2019. SungHoon Kim. All rights reserved.
 */
 int main()
 {

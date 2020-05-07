@@ -4,6 +4,7 @@
 /*
 	HashTable
 	September 3, 2019
+	Copyright 2019. SungHoon Kim. All rights reserved.
 */
 
 int main()
