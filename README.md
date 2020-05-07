@@ -6,8 +6,7 @@
 - [x] 1. Recursive (재귀)
 - [x] 2. Binary Search (이진탐색)
 - [x] 3. Polynomial (다항식)
-- [x] 4. Stack (스택)
-  
+- [x] 4. Stack (스택)  
 - [x] 5-1. Queue (큐)
 - [x] 5-2. Deque (데큐(덱))
   
