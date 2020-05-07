@@ -5,11 +5,11 @@
 ## ☑ TODO
 - [x] 1. Recursive (재귀)
 - [x] 2. Binary Search (이진탐색)
-- [x] 3. Polynomial (다항식)
+- [x] 3. Polynomial (다항식) (2015, lab3)
 - [x] 4. Stack (스택)
 #
 - [x] 5. Queue
-  - [x] 5-1. Queue (큐)
+  - [x] 5-1. Queue (큐) (2015, lab5)
   - [x] 5-2. Deque (데큐(덱))
 #
 - [x] 6. Maze (미로)
@@ -20,8 +20,8 @@
 - [x] 8. LinkedList (연결리스트)
 #
 - [ ] 9. Tree (트리)
-  - [x] 9-1. Binary Tree (이진트리)
-  - [x] 9-2. Binary Search Tree (이진탐색트리)
+  - [x] 9-1. Binary Tree (이진트리) (2015, lab6)
+  - [x] 9-2. Binary Search Tree (이진탐색트리) (2015, hw2)
   - [x] 9-3. AVL Tree (균형잡힌 이진탐색트리)
   - [x] 9-4. Heap(Priority Queue) (힙, 우선순위 큐)
   - [ ] 9-4. Red-black tree (자가 균형 이진탐색트리)
@@ -37,10 +37,10 @@
 #
 - [ ] 12. Shortest Path
   - [ ] 12-0. Right hand
-  - [x] 12-1. DFS
+  - [x] 12-1. DFS (2015 lab8)
   - [x] 12-2. BFS
   - [ ] 12-3. Dijkstra
-  - [ ] 12-4. Floyd-Warshall
+  - [ ] 12-4. Floyd-Warshall (2015, lab9)
   - [ ] 12-5. A*
 #
 - [ ] 13. Minimum Spanning Tree(MST)
@@ -52,9 +52,9 @@
   - [ ] 14-2. Insertion
   - [ ] 14-3. Bubble
   - [ ] 14-4. Shell
-  - [ ] 14-5. Merge
+  - [ ] 14-5. Merge (2015, lab7)
   - [ ] 14-6. Quick
-  - [ ] 14-7. Heap
+  - [ ] 14-7. Heap (2015, hw3)
   - [ ] 14-8. Radix
 #
 - [ ] . 미정
