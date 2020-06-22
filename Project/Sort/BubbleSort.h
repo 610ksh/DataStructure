@@ -14,30 +14,47 @@
 	- 다음에 시작할때는 범위를 하나 줄여서 다시 진행한다.
 */
 
-void BubbleSort(int arr[], const int& length)
+namespace bubble
 {
-	std::cout << "Bubble Sort start\n";
+	void Print(int arr[], const int& length);
 
-	int temp = 0;
-	for (int i = length - 1; i > 0; --i)
+	void BubbleSort(const int arr[], const int& length)
 	{
-		// 점점 범위를 좁혀감. 앞의 i를 이용해서 조건문을 만듦
-		for (int j = 0; j < i; ++j)
+		// copy
+		int* copyArr = new int[length];
+		std::copy(arr, arr + length, copyArr);
+
+		std::cout << "Bubble Sort start\n";
+		Print(copyArr, length);
+
+		int temp = 0;
+		for (int i = length - 1; i > 0; --i)
 		{
-			// 처음부터 2개씩 비교하면서 더 작은값을 발견하면 교체 
-			if (arr[j] > arr[j + 1])
+			// 점점 범위를 좁혀감. 앞의 i를 이용해서 조건문을 만듦
+			for (int j = 0; j < i; ++j)
 			{
-				temp = arr[j];
-				arr[j] = arr[j + 1];
-				arr[j + 1] = temp;
+				// 처음부터 2개씩 비교하면서 더 작은값을 발견하면 교체 
+				if (copyArr[j] > copyArr[j + 1])
+				{
+					temp = copyArr[j];
+					copyArr[j] = copyArr[j + 1];
+					copyArr[j + 1] = temp;
+				}
 			}
+			Print(copyArr, length);
 		}
+
+		// 최종 출력
+		Print(copyArr, length);
+
+		std::cout << "Bubble Sort End\n\n";
 	}
 
-	// 출력
-	for (int i = 0; i < length; ++i)
-		std::cout << arr[i] << " ";
-	std::cout << std::endl;
-
-	std::cout << "Bubble Sort End\n\n";
+	void Print(int arr[], const int& length)
+	{
+		// 출력
+		for (int i = 0; i < length; ++i)
+			std::cout << arr[i] << " ";
+		std::cout << std::endl;
+	}
 }

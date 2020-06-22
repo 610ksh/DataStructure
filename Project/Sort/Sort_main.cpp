@@ -1,5 +1,6 @@
 #include "SelectionSort.h"
 #include "BubbleSort.h"
+#include "Shuffle.h"
 
 
 /*
@@ -14,10 +15,13 @@
 
 int main()
 {
-	int arr[5]{ 5,3,6,1,4 };
-
-	SelectionSort(arr, 5);
-	BubbleSort(arr, 5);
-
+	int arr[10]{ 1,2,3,4,5,6,7,8,9,10 };
+	int length = sizeof(arr) / sizeof(int);
+	Shuffle(arr, length); // ·£´ýÇÏ°Ô ¼ÅÇÃ
+	Print(arr, length); // Ãâ·Â
+	
+	selection::SelectionSort(arr, length);
+	bubble::BubbleSort(arr, length);
+	
 	return 0;
 }
