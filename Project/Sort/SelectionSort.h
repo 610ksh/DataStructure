@@ -47,6 +47,7 @@ namespace selection
 		// 최종 출력
 		Print(copyArr, length);
 		std::cout << "Selection Sort End\n\n";
+		delete[] copyArr;
 	}
 
 	void Print(int arr[], const int& length)

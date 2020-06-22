@@ -48,6 +48,7 @@ namespace bubble
 		Print(copyArr, length);
 
 		std::cout << "Bubble Sort End\n\n";
+		delete[] copyArr;
 	}
 
 	void Print(int arr[], const int& length)
