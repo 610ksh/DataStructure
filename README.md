@@ -48,9 +48,9 @@
   - [ ] 13-2. Prim(프림)
 #
 - [ ] 14. Sortings
-  - [ ] 14-1. Selection
-  - [ ] 14-2. Insertion
-  - [ ] 14-3. Bubble
+  - [x] 14-1. Selection
+  - [x] 14-2. Bubble
+  - [ ] 14-3. Insertion
   - [ ] 14-4. Shell
   - [ ] 14-5. Merge (2015, lab7)
   - [ ] 14-6. Quick

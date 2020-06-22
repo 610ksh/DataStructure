@@ -37,6 +37,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UnWeightedGraph", "Graph\Gr
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WeightedGraph", "WeightedGraph\WeightedGraph.vcxproj", "{5972291D-DFC9-4CBA-A0BD-7CE4EA47A94E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sort", "Sort\Sort.vcxproj", "{74353CA2-F2B7-4651-8537-CAC5F3020215}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -181,6 +183,14 @@ Global
 		{5972291D-DFC9-4CBA-A0BD-7CE4EA47A94E}.Release|x64.Build.0 = Release|x64
 		{5972291D-DFC9-4CBA-A0BD-7CE4EA47A94E}.Release|x86.ActiveCfg = Release|Win32
 		{5972291D-DFC9-4CBA-A0BD-7CE4EA47A94E}.Release|x86.Build.0 = Release|Win32
+		{74353CA2-F2B7-4651-8537-CAC5F3020215}.Debug|x64.ActiveCfg = Debug|x64
+		{74353CA2-F2B7-4651-8537-CAC5F3020215}.Debug|x64.Build.0 = Debug|x64
+		{74353CA2-F2B7-4651-8537-CAC5F3020215}.Debug|x86.ActiveCfg = Debug|Win32
+		{74353CA2-F2B7-4651-8537-CAC5F3020215}.Debug|x86.Build.0 = Debug|Win32
+		{74353CA2-F2B7-4651-8537-CAC5F3020215}.Release|x64.ActiveCfg = Release|x64
+		{74353CA2-F2B7-4651-8537-CAC5F3020215}.Release|x64.Build.0 = Release|x64
+		{74353CA2-F2B7-4651-8537-CAC5F3020215}.Release|x86.ActiveCfg = Release|Win32
+		{74353CA2-F2B7-4651-8537-CAC5F3020215}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
