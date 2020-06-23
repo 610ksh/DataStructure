@@ -45,6 +45,7 @@ namespace bubble
 		}
 
 		// 최종 출력
+		std::cout << "Result : ";
 		Print(copyArr, length);
 
 		std::cout << "Bubble Sort End\n\n";
