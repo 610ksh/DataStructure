@@ -1,6 +1,6 @@
 # DataStructure
 - This project codes are data structure codes that i coded myself
-- Cpp
+- only Cpp
 
 ## ☑ TODO
 - [x] 1. Recursive (재귀)
@@ -12,7 +12,7 @@
   - [x] 5-1. Queue (큐) (2015, lab5)
   - [x] 5-2. Deque (데큐(덱))
 #
-- [x] 6. Maze (미로)
+- [x] 6. Maze(미로) example test
   - [x] 6-1. DFS (깊이 우선 탐색)
   - [x] 6-2. BFS (너비 우선 탐색)
 #
