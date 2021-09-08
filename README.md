@@ -8,6 +8,8 @@
 - [x] 1-2. Binary Search (이진탐색)
 - [x] 1-3. Polynomial (다항식) (2015, lab3)
 - [x] 1-4. Combination (조합, 2021.09.08) / https://blog.naver.com/610ksh/222499517544
+- [ ] 1-5. std::array (arrray)
+- [ ] 1-6. std::vector (vector)
 
 #
 ### 2. Stack & Queue
