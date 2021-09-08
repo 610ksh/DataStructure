@@ -2,7 +2,7 @@
 - This project codes are data structure codes that i coded myself
 - only Cpp
 
-## ☑ TODO
+## ☑ TODO & Complete
 ### 1. Normal
 - [x] 1-1. Recursive (재귀)
 - [x] 1-2. Binary Search (이진탐색)
