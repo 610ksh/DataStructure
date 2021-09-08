@@ -3,63 +3,72 @@
 - only Cpp
 
 ## ☑ TODO
-- [x] 1. Recursive (재귀)
-- [x] 2. Binary Search (이진탐색)
-- [x] 3. Polynomial (다항식) (2015, lab3)
-- [x] 4. Stack (스택)
-#
-- [x] 5. Queue
-  - [x] 5-1. Queue (큐) (2015, lab5)
-  - [x] 5-2. Deque (데큐(덱))
-#
-- [x] 6. Maze(미로) example test
-  - [x] 6-1. DFS (깊이 우선 탐색)
-  - [x] 6-2. BFS (너비 우선 탐색)
-#
-- [x] 7. ArrayList (배열리스트)
-- [x] 8. LinkedList (연결리스트)
-#
-- [ ] 9. Tree (트리)
-  - [x] 9-1. Binary Tree (이진트리) (2015, lab6)
-  - [x] 9-2. Binary Search Tree (이진탐색트리) (2015, hw2)
-  - [x] 9-3. AVL Tree (균형잡힌 이진탐색트리)
-  - [x] 9-4. Heap(Priority Queue) (힙, 우선순위 큐)
-  - [ ] 9-4. Red-black tree (자가 균형 이진탐색트리)
-  - [ ] 9-5. MST
-  - [ ] 9-6. B
-  - [ ] 9-7. B*
-#
-- [x] 10. Hash Table & Map (해쉬테이블&맵)
-#
-- [ ] 11. Graph
-  - [x] 11-1. Unweighted Graph (adjacency matrix & list)
-  - [ ] 11-2. Weighted Graph (adjacency matrix & list)
-#
-- [ ] 12. Shortest Path
-  - [ ] 12-0. Right hand
-  - [x] 12-1. DFS (2015 lab8)
-  - [x] 12-2. BFS
-  - [ ] 12-3. Dijkstra
-  - [ ] 12-4. Floyd-Warshall (2015, lab9)
-  - [ ] 12-5. A*
-#
-- [ ] 13. Minimum Spanning Tree(MST)
-  - [ ] 13-1. Kruskal(크루스칼)
-  - [ ] 13-2. Prim(프림)
-#
-- [ ] 14. Sortings
-  - [x] 14-1. Selection
-  - [x] 14-2. Bubble
-  - [ ] 14-3. Insertion
-  - [ ] 14-4. Shell
-  - [ ] 14-5. Merge (2015, lab7)
-  - [ ] 14-6. Quick
-  - [ ] 14-7. Heap (2015, hw3)
-  - [ ] 14-8. Radix
-#
-- [ ] . 미정
+### 1. Normal
+- [x] 1-1. Recursive (재귀)
+- [x] 1-2. Binary Search (이진탐색)
+- [x] 1-3. Polynomial (다항식) (2015, lab3)
+- [x] 1-4. Combination (조합, 2021.09.08) / https://blog.naver.com/610ksh/222499517544
 
-
+#
+### 2. Stack & Queue
+- [x] 2. Stack & Queue
+  - [x] 2-1. Stack (스택)
+  - [x] 2-2. Queue (큐) (2015, lab5)
+  - [x] 2-3. Deque (데큐(덱))
+#
+### 3. Maze
+- [x] 3. Maze(미로) example test
+  - [x] 3-1. DFS (깊이 우선 탐색)
+  - [x] 3-2. BFS (너비 우선 탐색)
+#
+### 4. List
+- [x] 4-1. ArrayList (배열리스트)
+- [x] 4-2. LinkedList (연결리스트)
+#
+### 5. Tree
+- [ ] 5. Tree (트리)
+  - [x] 5-1. Binary Tree (이진트리) (2015, lab6)
+  - [x] 5-2. Binary Search Tree (이진탐색트리) (2015, hw2)
+  - [x] 5-3. AVL Tree (균형잡힌 이진탐색트리)
+  - [x] 5-4. Heap(Priority Queue) (힙, 우선순위 큐)
+  - [ ] 5-5. Red-black tree (자가 균형 이진탐색트리)
+  - [ ] 5-6. MST
+  - [ ] 5-7. B
+  - [ ] 5-8. B*
+#
+### 6. Hash
+- [x] 6. Hash Table & Map (해쉬테이블&맵)
+#
+### 7. Graph
+- [ ] 7. Graph
+  - [x] 7-1. Unweighted Graph (adjacency matrix & list)
+  - [ ] 7-2. Weighted Graph (adjacency matrix & list)
+#
+### 8. Shortest Path
+- [ ] 8. Shortest Path
+  - [ ] 8-1. Right hand (우수법)
+  - [x] 8-2. DFS (2015 lab8)
+  - [x] 8-3. BFS / 
+  - [ ] 8-4. Dijkstra
+  - [ ] 8-5. Floyd-Warshall (2015, lab9)
+  - [ ] 8-6. A*
+#
+### 9. Minimum Spanning Tree
+- [ ] 9. Minimum Spanning Tree(MST)
+  - [ ] 9-1. Kruskal(크루스칼)
+  - [ ] 9-2. Prim(프림)
+#
+### 10. Sorting
+- [ ] 10. Sortings
+  - [x] 10-1. Selection
+  - [x] 10-2. Bubble
+  - [ ] 10-3. Insertion
+  - [ ] 10-4. Shell
+  - [ ] 10-5. Merge (2015, lab7)
+  - [ ] 10-6. Quick
+  - [ ] 10-7. Heap (2015, hw3)
+  - [ ] 10-8. Radix
+#
 
 ## gitignore : https://www.gitignore.io/
 1. Windows
