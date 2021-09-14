@@ -34,9 +34,8 @@
   - [x] 5-3. AVL Tree (균형잡힌 이진탐색트리)
   - [x] 5-4. Heap(Priority Queue) (힙, 우선순위 큐)
   - [ ] 5-5. Red-black tree (자가 균형 이진탐색트리)
-  - [ ] 5-6. MST
-  - [ ] 5-7. B
-  - [ ] 5-8. B*
+  - [ ] 5-6. B
+  - [ ] 5-7. B*
 #
 ### 6. Hash
 - [x] 6. Hash Table & Map (해쉬테이블&맵)
@@ -57,8 +56,9 @@
 #
 ### 9. Minimum Spanning Tree
 - [ ] 9. Minimum Spanning Tree(MST)
-  - [ ] 9-1. Kruskal(크루스칼)
-  - [ ] 9-2. Prim(프림)
+  - [ ] 9-1. MST
+  - [ ] 9-2. Kruskal(크루스칼)
+  - [ ] 9-3. Prim(프림)
 #
 ### 10. Sorting
 - [ ] 10. Sortings
