@@ -7,9 +7,8 @@
 - [x] 1-1. Recursive (재귀) / https://blog.naver.com/610ksh/221615593906
 - [x] 1-2. Binary Search (이진탐색) / https://blog.naver.com/610ksh/221597472571
 - [x] 1-3. Polynomial (다항식) (2015, lab3)
-- [x] 1-4. Combination (조합, 2021.09.08) / https://blog.naver.com/610ksh/222499517544
-- [ ] 1-5. std::array (arrray)
-- [ ] 1-6. std::vector (vector)
+- [x] 1-4. Combination (조합, 2021.09.08) / https://blog.naver.com/610ksh/222499517544+
+- [x] 1-5. ArrayList (std::array와 유사한 정적배열)
 
 #
 ### 2. Stack & Queue
@@ -24,8 +23,7 @@
   - [x] 3-2. BFS (너비 우선 탐색)
 #
 ### 4. List
-- [x] 4-1. ArrayList (배열리스트)
-- [x] 4-2. LinkedList (연결리스트) / https://blog.naver.com/610ksh/221619498376
+- [x] 4-1. LinkedList (연결리스트) / https://blog.naver.com/610ksh/221619498376
 #
 ### 5. Tree
 - [ ] 5. Tree (트리)
