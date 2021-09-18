@@ -4,8 +4,8 @@
 
 ## ☑ TODO & Complete
 ### 1. Normal
-- [x] 1-1. Recursive (재귀)
-- [x] 1-2. Binary Search (이진탐색)
+- [x] 1-1. Recursive (재귀) / https://blog.naver.com/610ksh/221615593906
+- [x] 1-2. Binary Search (이진탐색) / https://blog.naver.com/610ksh/221597472571
 - [x] 1-3. Polynomial (다항식) (2015, lab3)
 - [x] 1-4. Combination (조합, 2021.09.08) / https://blog.naver.com/610ksh/222499517544
 - [ ] 1-5. std::array (arrray)
@@ -14,43 +14,43 @@
 #
 ### 2. Stack & Queue
 - [x] 2. Stack & Queue
-  - [x] 2-1. Stack (스택)
-  - [x] 2-2. Queue (큐) (2015, lab5)
-  - [x] 2-3. Deque (데큐(덱))
+  - [x] 2-1. Stack (스택) / https://blog.naver.com/610ksh/221615627128
+  - [x] 2-2. Queue (큐) (2015, lab5) / https://blog.naver.com/610ksh/221618043010
+  - [x] 2-3. Deque (데큐(덱)) / https://blog.naver.com/610ksh/221618236500
 #
 ### 3. Maze
 - [x] 3. Maze(미로) example test
-  - [x] 3-1. DFS (깊이 우선 탐색)
+  - [x] 3-1. DFS (깊이 우선 탐색) / https://blog.naver.com/610ksh/222483115548
   - [x] 3-2. BFS (너비 우선 탐색)
 #
 ### 4. List
 - [x] 4-1. ArrayList (배열리스트)
-- [x] 4-2. LinkedList (연결리스트)
+- [x] 4-2. LinkedList (연결리스트) / https://blog.naver.com/610ksh/221619498376
 #
 ### 5. Tree
 - [ ] 5. Tree (트리)
-  - [x] 5-1. Binary Tree (이진트리) (2015, lab6)
-  - [x] 5-2. Binary Search Tree (이진탐색트리) (2015, hw2)
-  - [x] 5-3. AVL Tree (균형잡힌 이진탐색트리)
-  - [x] 5-4. Heap(Priority Queue) (힙, 우선순위 큐)
+  - [x] 5-1. Binary Tree (이진트리) (2015, lab6) / https://blog.naver.com/610ksh/221623005254
+  - [x] 5-2. Binary Search Tree (이진탐색트리) (2015, hw2) / https://blog.naver.com/610ksh/221625261729
+  - [x] 5-3. AVL Tree (균형잡힌 이진탐색트리) / https://blog.naver.com/610ksh/221625838331
+  - [x] 5-4. Heap(for Priority Queue) (힙) / https://blog.naver.com/610ksh/221634920860
   - [ ] 5-5. Red-black tree (자가 균형 이진탐색트리)
   - [ ] 5-6. B
   - [ ] 5-7. B*
 #
 ### 6. Hash
-- [x] 6. Hash Table & Map (해쉬테이블&맵)
+- [x] 6. Hash Table & Map (해쉬테이블&맵) / https://blog.naver.com/610ksh/221636497961
 #
 ### 7. Graph
 - [ ] 7. Graph
-  - [x] 7-1. Unweighted Graph (adjacency matrix & list)
+  - [x] 7-1. Unweighted Graph (adjacency matrix & list) / https://blog.naver.com/610ksh/221639942226
   - [ ] 7-2. Weighted Graph (adjacency matrix & list)
 #
 ### 8. Shortest Path
 - [ ] 8. Shortest Path
   - [ ] 8-1. Right hand (우수법)
-  - [x] 8-2. DFS (2015 lab8)
+  - [x] 8-2. DFS (2015 lab8) 
   - [x] 8-3. BFS / 
-  - [ ] 8-4. Dijkstra
+  - [ ] 8-4. Dijkstra / (수정중) https://blog.naver.com/610ksh/221932370819
   - [ ] 8-5. Floyd-Warshall (2015, lab9)
   - [ ] 8-6. A*
 #
